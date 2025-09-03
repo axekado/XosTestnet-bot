@@ -24,7 +24,7 @@ class APIClient:
         self.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
     def _create_session(self) -> AsyncSession:
-        session = AsyncSession(impersonate="chrome131", verify=False)
+        session = AsyncSession(impersonate="chrome131", verify=False) 
         session.timeout = 30
 
         if self.proxy:
