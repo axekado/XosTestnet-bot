@@ -7,7 +7,7 @@ from loguru import logger
 try:
     from PySide6.QtWidgets import QTextEdit
     from PySide6.QtGui import QColor
-    from PySide6.QtCore import QObject, Signal, Slot
+    from PySide6.QtCore import QObject, Signal, Slot 
     QT_AVAILABLE = True
 except ImportError:
     QT_AVAILABLE = False
