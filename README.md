@@ -18,7 +18,7 @@
 
 # Installation+Run🕸
 ```shell
-git clone https://github.com/ox1nec/XosTestnet-bot
+git clone https://github.com/axekado/XosTestnet-bot
 cd XosTestnet-bot
 run.bat
 ```
@@ -26,7 +26,7 @@ run.bat
 **OR**
 
 ```shell
-git clone https://github.com/ox1nec/XosTestnet-bot
+git clone https://github.com/axekado/XosTestnet-bot
 cd XosTestnet-bot
 pip install -r requirements.txt
 python bot.py
